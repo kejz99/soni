@@ -785,5 +785,171 @@
     height: 100%;
 }
 
+@media (max-width : 500px) {
+    .one-1 > div{
+        font-size: 12px;
+    }
+    .one-3{
+        font-size: 12px;
+    }
+    .one-1-mid-links{
+        gap: 15px;
+    }
+    .one-2 > div{
+        width: 100%;
+        font-size: 75px;
+        height: max-content;
+        background-color: none;
+        line-height: normal;
+        display: flex;
+        align-items: start;
+        justify-content: start;
+    }
+    .one-2 > div > span {
+        background-color: #00000000;
+    }
+    .two{
+        flex-direction: column;
+    }
+    .two-left{
+        width: 100%;
+        gap: 60px;
+    }
+    .two-right{
+        width: 100%;
+    }
+    .two-right > div{
+        width: 100%;
+        flex-direction: column;
+    }
+    .two-right > div > div{
+        width: 100%;
+    }
+    .three-2-top{
+        flex-direction: column;
+    }
+    .three-2-bottom{
+        flex-direction: column;
+    }
+    .three-2-card-bottom{
+        flex-direction: column;
+    }
+    .three-2-card-no > div:nth-child(2){
+    font-size: 60px;
+    color: hwb(0 73% 27% / 0.548);
+    transition: all .5s ease-in-out;
+    line-height: 100%;
+    }
+    .three-2-top-card:hover{
+    cursor: pointer;
+    width: 100%;
+    }
+    .three-2-bottom-card:hover{
+    cursor: pointer;
+    width: 100%;
+    }
+    .four-2{
+        flex-direction: column;
+    }
+    .four-2-card{
+        height: fit-content;
+        flex-direction: column;
+    }
+    .four-2-card > *{
+        width: 100%;
+        height: 100%;
+    }
+    .four-2-card-left{
+        height: 300px;
+    }
+    .four-2-card-left > div{
+        font-size: 30px;
+    }
+    .four-2-card-mid{
+        height: max-content;
+    }
+    .four-2-card-details{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+}
+    .four-2-card-detail:first-child{
+        font-size: 20px;
+    }
+    .four-2-card-detail:last-child{
+        font-size: 20px;
+    }
+    .four-2-card-link{
+        display: none;
+    }
+    .four-2-card-right{
+        display: none;
+    }
+    .five{
+        padding: 30px;
+        padding-top: 300px;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .five > div{
+        width: 100%;
+    }   
+    .five > div > div{
+        width: 100%;
+    }
+    .five-left{
+        gap: 30px;
+    }
+    .five-left-bottom{
+        display: none;
+    }
+    .six{
+        z-index: 2;
+    }
+    .six-2{
+        flex-direction: column;
+        padding: 30px;
+        margin-top: 0px;
+    }
+    .six-2-left{
+        padding: 100px 0px;
+    }
+    .six-2-right{
+        padding: 100px 0px;
+    }
+    .six-2 > div{
+        width: 100%;
+        height: fit-content;
+        border-bottom: none;
+        border: .1px solid hwb(0 100% 0% / 0.292);
+    }
+    .six-2-mid{
+        padding: 30px;
+    }
+    .six-mid-bottom{
+        padding-top: 50px;
+    }
+    .smb-detail{
+        text-align: center;
+        width: 100%;
+    }
+    .seven > *{
+        font-size: 60px;
+    }
+    .eight{
+        padding-top: 30px;
+    }
+    .eight-top{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .eight-bottom{
+        padding-top: 30px;
+    }
+    .eight-top-link > a{
+        font-size: 15px;
+        display: flex;
+    }
+}
 
 
