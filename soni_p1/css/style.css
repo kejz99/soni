@@ -47,7 +47,7 @@
       rgba(0, 0, 0, 0) 30%, 
       rgba(0, 0, 0, 0.85) 100%
     ),
-    url('/photots/main-bg.jpg');
+    url('../photots/main-bg.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -173,7 +173,7 @@
 .two-right-top-card-1{
     width: 70%;
     height: 100%;
-    background-image: url('/photos/graphic-design.jpg');
+    background-image: url('../photos/graphic-design.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -186,7 +186,7 @@
 .two-right-top-card-2{
     width: 30%;
     height: 100%;
-    background-image: url('/photos/web-design.jpg');
+    background-image: url('../photos/web-design.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -199,7 +199,7 @@
 .two-right-bottom-card-1{
     width: 30%;
     height: 100%;
-    background-image: url('/photos/video-editing.jpg');
+    background-image: url('../photos/video-editing.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -212,7 +212,7 @@
 .two-right-bottom-card-2{
     width: 70%;
     height: 100%;
-    background-image: url('/photos/backend.jpg');
+    background-image: url('../photos/backend.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -485,7 +485,7 @@
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    background-image: url(/photots/portfolio.jpg);
+    background-image: url(../photots/portfolio.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
