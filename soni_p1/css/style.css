@@ -1,16 +1,16 @@
 @font-face {
     font-family: main-font;
-    src: url(/fonts/HostGrotesk-Regular.otf);
+    src: url(../fonts/HostGrotesk-Regular.otf);
 }
 
 @font-face {
     font-family: light-font;
-    src: url(/fonts/Fontspring-DEMO-neogroteskessalt-light.otf);
+    src: url(../fonts/Fontspring-DEMO-neogroteskessalt-light.otf);
 }
 
 @font-face {
     font-family: ultralight-font;
-    src: url(/fonts/Fontspring-DEMO-neogroteskessalt-ultralight.otf);
+    src: url(../fonts/Fontspring-DEMO-neogroteskessalt-ultralight.otf);
 }
 
 *{
